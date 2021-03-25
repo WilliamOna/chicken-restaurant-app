@@ -18,6 +18,6 @@ public class BuffaloChickenService {
 	}
 	
 	public List<BuffaloChicken> getAll(){
-		return null;
+		return buffaloChickenRepository.findAll();
 	}
 }
