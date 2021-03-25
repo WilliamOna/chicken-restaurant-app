@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @Entity
 public class BuffaloChicken implements MenuItem{
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	@Column
 	private int price;
